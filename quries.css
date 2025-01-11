@@ -1,0 +1,22 @@
+
+@media (max-width: 900px) {
+  html{
+    font-size: 50%;
+  }
+   
+  }
+@media(max-width:800px){
+  .right{
+    display: none;
+  }
+  .nav-btn{
+    display: none;
+  }
+} 
+
+@media (max-width:650px){
+  html{
+    font-size: 45%;
+  }
+}
+  
