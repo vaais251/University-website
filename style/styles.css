@@ -653,3 +653,38 @@ video {
     height: 100%;
     object-fit: cover;
 }
+
+.news{
+    margin-top: 5rem;
+    
+
+}
+.news-heading-primary{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    
+}
+.news-science{
+    box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d;
+    gap: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.news-science:hover{
+    box-shadow: 0 6px 6px #00000030, 0 6px 6px #0000003b;
+    cursor: pointer;
+}
+.science-content-heading{
+    font-size: 3rem;
+    color: #006dae;
+    margin-bottom: 3rem;
+
+}
+.science-content-paragraph{
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+.science-image{
+    width: 100%;
+}
