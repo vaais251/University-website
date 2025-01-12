@@ -39,8 +39,22 @@
   .article{
     grid-template-columns: 1fr;
   }
+  .banner{
+    height: auto;
+    height: 250vh;
+  }
+  .banner-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    /* margin-top: 50rem; */
+  }
+  
 }
 @media (max-width:650px){
+  
+  
   html{
     font-size: 45%;
   }
@@ -63,7 +77,7 @@
   
   .banner{
     height: auto;
-    height: 150vh;
+    height: 250vh;
   }
   .banner-card{
     width: 35rem;
@@ -101,7 +115,7 @@
 @media(max-width:420px){
   .banner{
     height: auto;
-    height: 200vh;
+    height: 250vh;
   }
 }
 @media(max-width:350px){

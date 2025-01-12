@@ -74,7 +74,7 @@ html {
     border-radius: 5px;
     cursor: pointer;
     border: 1px solid gray;
-    color: black;
+    color: inherit;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.8rem;
@@ -144,12 +144,20 @@ html {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .nav-btn{
-    border: 1px solid #006dae;
+    border: 1px solid black;
+    color: black;
    
+}
+.nav-btn:hover{
+    background-color: #006dae;
+    
 }
 
 .header-btn{
     font-size: 1.8rem !important;
+    /* padding: 1.4rem 5rem !important; */
+    font-weight: 500;
+    color: white;
 }
 .menu {
     display: flex;
