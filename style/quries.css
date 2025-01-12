@@ -35,6 +35,11 @@
     height:40vh;
   }
 }
+@media(max-width:750px){
+  .article{
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width:650px){
   html{
     font-size: 45%;
